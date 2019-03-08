@@ -15,36 +15,40 @@
 // Using your dinosaur objects, log answers to these questions:
 
 
-// const dinosaurs = [{
-//   objectName: tyrannosaurus,
-//   diet: carnivorous,
-//   weight: 7000,
-//   length: 12,
-//   period: 'late cretaceious'
-// }, {
-//   objectName: stegosaurus,
-//   diet: herbivorous,
-//   weight: 2000,
-//   length: 9,
-//   period: 'late jurassic'
-// }, {
-//   objectName: velociraptor,
-//   diet: carnivorous,
-//   weight: 15,
-//   length: 1.8,
-//   period: 'late cretaceious'
-// }];
+ const tyrannosaurus = {
+  objectName: 'tyrannosaurus',
+   diet: 'carnivorous',
+   weight: 7000,
+   length: '12k',
+   period: 'late cretaceious'
+} 
+
+ const stegosaurus = {
+ objectName: 'stegosaurus',
+ diet: 'herbivorous',
+   weight: '2000k',
+  length: 9,
+ period: 'late jurassic'
+ }
+
+ const velociraptor = {
+  objectName: 'velociraptor',
+  diet: 'carnivorous',
+ weight: '15k',
+  length: 1.8,
+ period: 'late cretaceious'
+};
 // How much did tyrannosaurus weigh?
-// console.log(tyrannosaurus);
+console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(velociraptor.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(stegosaurus.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
@@ -130,21 +134,21 @@ console.log(lowerCase);
 The zoos are concenred about animals with a lower population count. Find out which animals have a population less than 5.
 
 */
-const largerPopulation = zooAnimals.filter((pop) => {
-  return pop.zooAnimals === 5;
-});
-console.log(largerPopulation);
+// const largerPopulation = zooAnimals.filter((pop) => {
+//   return pop.zooAnimals === 5;
+// });
+// console.log(largerPopulation);
 
-/* Request 4: .reduce() 
+// /* Request 4: .reduce() 
 
-The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
+// The zoos need to know their total animal population across the United States.  Find the total population from all the zoos using the .reduce() method.
 
-*/
-const populationTotal = zooAnimals.reduce(zooAnimals, pop) => {
-  return zooAnimals + pop.zooAnimals;
-}, 0);
+// */
+// const populationTotal = zooAnimals.reduce(zooAnimals, pop) => {
+//   return zooAnimals + pop.zooAnimals;
+// }, 0);
 
-console.log(populationTotal);
+// console.log(populationTotal);
 
 
 /* 
