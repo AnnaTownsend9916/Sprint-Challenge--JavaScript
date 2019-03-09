@@ -29,25 +29,32 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+forEach doesnt return anything and just gives a provided function. The map uses return values and gives a new array.
 2. What is the difference between a function and a method?
-
+a method is just part of a function. It's usually object oriented.
 3. What is closure?
+it closes the function 
 
 4. Describe the four rules of the 'this' keyword.
+1. window binding: That binds your code to windows. It's a global state.
+* 2. Explicit binding: That uses all three forms. Array, individual, variable .apply .call and .bind.
+* 3. implicit binding: Implies a binding like a method with a function.
+* 4. binding is awesome.
+*
 
-5. Why do we need super() in an extended class?
+
+5. Why do we need super() in an extended class? its used to access the parent and callback.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
+- [ x] Create a forked copy of this project.
 - [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [ x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
+- [x ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
